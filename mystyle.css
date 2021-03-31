@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif
+  }
+  a {
+    margin: 5px;
+    text-decoration: none; /*remove underline */
+    color: black;
+  }
+
+  nav {
+    display: flex; /*makes flex container fill free space*/
+    justify-content: space-between;
+  }
+
+  .button {
+      color: white;
+      text-align: center;
+      background-color: #2210ed;
+      height: 30px;
+      padding: 0px 20px;
+  }
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh; /*view height*/
+}
+
+.search-nav {
+  display: flex;
+  align-items: space-between;
+  width: 600px;
+  height: 38px;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+}
+
+.search-nav > input {
+  flex-grow: 1;
+  border-radius: 20px;
+  outline: none;
+}
+.button-container {
+  padding-top: 53px; /* blank space in between*/
+  border-radius: 30px;
+}
+.button-container > button {
+  background-color: rgb(231, 227, 227);
+  border: 2px solid gainsboro;
+  border-radius: 30px;
+  height: 25px;
+  padding: 0px 20;
+}
+.extra-text {
+  color: blue;
+  text-align: center;
+  padding-top: 43px; 
+}
+.footer-text  {
+  color: black;
+  text-align: center;
+  padding-top: 150px;
+}
+.header-bottom  {
+  padding-top: 23px; 
+}
