@@ -1,0 +1,9 @@
+/*- Mobile: 375px
+- Desktop: 1440px*/ 
+
+@media screen and (max-width: 1440px) {
+    .main-grid  {
+        color: #000;
+        background: #000;
+    }
+}
